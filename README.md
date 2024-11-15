@@ -41,8 +41,9 @@ clone the repo into google colab and set the storage as Hard Disk or else
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-## Evaluation Metrics
 ```
+## Evaluation Metrics
+
 The performance of the model is evaluated using the following metrics for both tasks:
 
 ### Stance Detection
@@ -55,21 +56,7 @@ The performance of the model is evaluated using the following metrics for both t
 - **Case 2**: 79% accuracy
 - **Zero-shot**: 64% accuracy
 
-## Results
 
-The following images show the evaluation metrics for each of the test datasets:
-
-![Metrics for Case 1](images/case1_metrics.png)  
-*Figure 1: Metrics for Case 1*
-
-![Metrics for Case 2](images/case2_metrics.png)  
-*Figure 2: Metrics for Case 2*
-
-![Metrics for Zero-shot](images/zeroshot_metrics.png)  
-*Figure 3: Metrics for Zero-shot*
-
-![Metrics for Unseen Test](images/unseen_metrics.png)  
-*Figure 4: Metrics for Unseen Test*
 
 ## Conclusion
 
