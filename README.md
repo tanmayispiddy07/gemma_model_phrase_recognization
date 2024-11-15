@@ -1,6 +1,6 @@
-# Phrase Generation using Gemini 2bit Model
+# Phrase Generation using Gemma 2bit Model
 
-This project demonstrates the use of the Gemini 2bit model for phrase generation tasks. The model is trained using a dataset of tweets and evaluated on multiple test files, including a zero-shot test file. The tokenizer used is `AutoTokenizer` from Hugging Face.
+This project demonstrates the use of the Gemma 2bit model for phrase generation tasks. The model is trained using a dataset of tweets and evaluated on multiple test files, including a zero-shot test file. The tokenizer used is `AutoTokenizer` from Hugging Face.
 
 ## Project Overview
 
@@ -23,7 +23,7 @@ The **Gemini 2bit model** is a state-of-the-art transformer-based model that exc
 ### Data
 - **Training Dataset**:
   - `train_random_32.csv`: The training dataset consisting of random samples of 32 tweets.
-- **Test Datasets** (4 files): 
+- **Test Datasets** (3 files): 
   - `case1.csv`
   - `case2.csv` 
   - `zero_shot_test.csv`: A zero-shot test dataset for evaluating the model's performance on unseen data.
@@ -42,7 +42,7 @@ clone the repo into google colab and set the storage as Hard Disk or else
    git clone <repository-url>
    cd <repository-directory>
 ## Evaluation Metrics
-
+```
 The performance of the model is evaluated using the following metrics for both tasks:
 
 ### Stance Detection
